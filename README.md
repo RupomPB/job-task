@@ -4,6 +4,12 @@
 
 ---
 
+## 🔗 Project Links
+- **Live Demo:** [https://fintrixx-amazon.netlify.app/](https://fintrixx-amazon.netlify.app/)
+- **GitHub Repository:** [https://github.com/RupomPB/job-task](https://github.com/RupomPB/job-task)
+
+---
+
 ## 🎨 Project Overview
 এই প্রজেক্টটি একটি সার্ভিস-বেজড ল্যান্ডিং পেজ যেখানে অ্যামাজন গ্রোথ পার্টনারদের বিভিন্ন সেবা এবং তাদের সফলতার পরিসংখ্যান তুলে ধরা হয়েছে। এটি "Style Decor Project" এর একটি অংশ।
 
@@ -29,9 +35,9 @@
 ## 🚀 How to Run the Project
 আপনার লোকাল মেশিনে প্রজেক্টটি রান করতে নিচের ধাপগুলো অনুসরণ করুন:
 
-1.  প্রথমে প্রজেক্ট ফোল্ডারটি আপনার পিসিতে ওপেন করুন।
-2.  নিশ্চিত করুন যে আপনার কাছে একটি `assets/images/` ফোল্ডার আছে এবং তাতে প্রয়োজনীয় ছবিগুলো আছে।
-3.  `index.html` ফাইলটি যেকোনো ব্রাউজারে (Chrome, Edge, Firefox) ওপেন করুন।
+1. প্রথমে প্রজেক্ট ফোল্ডারটি আপনার পিসিতে ওপেন করুন।
+2. নিশ্চিত করুন যে আপনার কাছে একটি `assets/images/` ফোল্ডার আছে এবং তাতে প্রয়োজনীয় ছবিগুলো আছে।
+3. `index.html` ফাইলটি যেকোনো ব্রাউজারে (Chrome, Edge, Firefox) ওপেন করুন।
 
 ---
 
