@@ -514,9 +514,97 @@
     font-weight: bold;
 }
 
-/* Responsive */
 
-   
+/* Our Approach Section */
+.approach-section {
+    background-color: #111;
+    color: white;
+    padding: 100px 8%;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.approach-images {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+}
+
+.img-box {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.box-1 { transform: translateY(-20px); }
+.box-2 { transform: translateY(70px); -webkit-transform: translateY(70px); -moz-transform: translateY(70px); -ms-transform: translateY(70px); -o-transform: translateY(70px); }
+
+.img-box img { width: 100%; display: block; }
+
+.approach-content { flex: 1; }
+
+.section-title-light { font-size: 40px; font-weight: 800; margin-bottom: 30px; }
+
+.mission-vision .item { margin-bottom: 25px; }
+.mission-vision h3 { color: #FF9900; margin-bottom: 10px; font-size: 20px; }
+.mission-vision p { color: #ccc; line-height: 1.6; font-size: 15px; }
+
+.divider { border: 0; border-top: 1px solid #333; margin: 20px 0; }
+
+/* Harsh Reality Section */
+.reality-section {
+    padding: 100px 8%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.reality-title { font-size: 36px; font-weight: 800; margin: 20px 0; }
+.highlight-alt { color: #FF9900; }
+.reality-subtitle { color: #666; max-width: 700px; margin: 0 auto 50px; }
+
+.reality-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.reality-card {
+    text-align: left;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    transition: 0.3s;
+}
+
+.reality-card:hover { border-color: #FF9900; background: #FFFAF5; }
+
+.reality-card h4 {
+    color: #FF9900;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.reality-card p { font-size: 14px; color: #555; line-height: 1.5; }
+
+.btn-talk {
+    background: #FF9900;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(255,153,0,0.3);
+}
+
+/* Responsive */
 
 @media (max-width: 992px) {
     .stats-grid {
@@ -537,6 +625,8 @@
     .service-title {
         font-size: 28px;
     }
+    .container-flex { flex-direction: column; }
+    .reality-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 
@@ -547,4 +637,5 @@
     .story-heading {
         font-size: 28px;
     }
+     .reality-grid { grid-template-columns: 1fr; }
 }
